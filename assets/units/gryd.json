@@ -1,0 +1,65 @@
+{
+  "id": "gryd",
+  "unitName": "Gryd",
+  "stats": {
+    "hp": 110,
+    "stamina": 140,
+    "speed": 1,
+    "armor": 50,
+    "evasion": 5,
+    "meleeSkill": 70,
+    "critChance": 5,
+    "critMult": 1.3,
+    "initiative": 15,
+    "damageMin": 32,
+    "damageMax": 38
+  },
+  
+  "skills": [
+    {
+      "id": "r_t_sword",
+      "name": "Удар мечем",
+      "sort": 10,
+      "cost": 50,
+      "range": 1,
+      "powerMult": 1,
+      "hitChanceBonus": 10,
+      "armorPenetration": 0.15,
+      "iconRow": 0,
+      "iconCol": 0
+    },
+    {
+      "id": "r_t_bash",
+      "name": "Удар щитом",
+      "sort": 20,
+      "cost": 75,
+      "range": 1,
+      "powerMult": 0.5,
+      "statusEffect": {
+        "type": "stun",
+        "chance": 0.4
+      },
+      "critChanceBonus": -5,
+      "iconRow": 0,
+      "iconCol": 1
+    },
+    {
+      "id": "r_t_wall",
+      "name": "Стіна щитів",
+      "sort": 30,
+      "cost": 90,
+      "range": 0,
+      "statusEffect": {
+        "type": "buff",
+        "armorBonus": 20
+      },
+      "iconRow": 0,
+      "iconCol": 2
+    }
+  ],
+
+  
+  "anchor": { "x": 0.52, "y": 0.75 },
+  "hitArea":  [70.0, 216.0, 80.0, 145.33, 108.67, 116.67, 135.33, 102.0, 142.67, 86.0, 167.33, 60.0, 183.33, 82.67, 192.0, 106.67, 208.0, 117.33, 248.0, 202.67, 208.0, 213.33, 210.67, 249.33, 228.67, 280.0, 185.33, 271.33, 149.33, 282.0, 118.67, 322.0, 92.0, 296.0, 70.0, 216.0],
+  "unitPortrait": { "row": 0, "col": 0 }
+}

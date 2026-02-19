@@ -1,0 +1,48 @@
+{
+  "id": "luchnyk",
+  "unitName": "Luchnyk",
+  
+  "stats": {
+    "hp": 80,
+    "stamina": 100,
+    "speed": 4,
+    "armor": 10,
+    "evasion": 15,
+    "rangedSkill": 85,
+    "critChance": 10,
+    "critMult": 1.5,
+    "initiative": 40,
+    "damageMin": 28,
+    "damageMax": 40
+  },
+  "skills": [
+    {
+      "id": "r_ar_shot",
+      "name": "Постріл",
+      "sort": 10,
+      "cost": 40,
+      "range": 6,
+      "powerMult": 1,
+      "armorPenetration": 0.15,
+      "iconRow": 3,
+      "iconCol": 0
+    },
+    {
+      "id": "r_ar_aim",
+      "name": "Міткий постріл",
+      "sort": 20,
+      "cost": 65,
+      "range": 8,
+      "powerMult": 1.5,
+      "hitChanceBonus": 25,
+      "critChanceBonus": 20,
+      "armorPenetration": 0.25,
+      "iconRow": 3,
+      "iconCol": 1
+    }
+  ],
+  
+  "anchor": { "x": 0.47, "y": 0.7 },
+  "hitArea":  [218.53, 337.74, 190.0, 199.33, 183.33, 154.67, 265.65, 154.3, 155.33, 94.0, 152.67, 64.0, 122.67, 52.67, 104.67, 74.0, 110.67, 98.67, 67.33, 104.67, 62.0, 125.33, 100.0, 144.67, 113.33, 180.67, 92.0, 242.67, 86.0, 291.33, 133.33, 277.33, 184.0, 286.0, 218.53, 337.74],
+  "unitPortrait": { "row": 0, "col": 2 }
+}

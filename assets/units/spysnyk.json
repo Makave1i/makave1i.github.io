@@ -1,0 +1,49 @@
+{
+  "id": "druzhynnyk",
+  "unitName": "Druzhynnyk",
+  
+  "stats": {
+    "hp": 120,
+    "stamina": 115,
+    "speed": 4,
+    "armor": 30,
+    "evasion": 15,
+    "meleeSkill": 75,
+    "critChance": 10,
+    "critMult": 1.4,
+    "initiative": 30,
+    "damageMin": 36,
+    "damageMax": 50
+  },
+  "skills": [
+    {
+      "id": "r_s_thrust",
+      "name": "Удар списом",
+      "sort": 10,
+      "cost": 40,
+      "range": 2,
+      "powerMult": 1,
+      "hitChanceBonus": 15,
+      "armorPenetration": 0.2,
+      "iconRow": 2,
+      "iconCol": 0
+    },
+    {
+      "id": "r_s_wall",
+      "name": "Стіна списів",
+      "sort": 20,
+      "cost": 75,
+      "range": 0,
+      "statusEffect": {
+        "type": "zoc_buff",
+        "zocDistance": 2
+      },
+      "iconRow": 2,
+      "iconCol": 1
+    }
+  ],
+  
+  "anchor": { "x": 0.42, "y": 0.7 },
+  "hitArea":  [208.0, 335.33, 186.67, 259.33, 150.67, 188.0, 195.33, 178.0, 161.33, 135.33, 154.67, 116.0, 132.67, 101.33, 126.67, 69.33, 102.67, 54.0, 88.0, 74.67, 88.0, 99.33, 70.0, 104.0, 42.67, 153.33, 80.0, 180.0, 57.33, 242.0, 46.0, 288.67, 84.0, 274.0, 99.33, 249.33, 148.0, 252.67, 208.0, 335.33],
+  "unitPortrait": { "row": 0, "col": 1 }
+}

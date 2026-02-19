@@ -1,0 +1,203 @@
+[
+  {
+    "id": "batyr",
+    "label": "Batyr",
+    "class": "dps",
+    "stats": {
+      "hp": 115,
+      "stamina": 125,
+      "speed": 5,
+      "armor": 20,
+      "evasion": 25,
+      "meleeSkill": 75,
+      "initiative": 55,
+      "critChance": 20,
+      "critMult": 1.7,
+      "damageMin": 50,
+      "damageMax": 66
+    },
+    "primarySkill": {
+      "id": "c_d_saber",
+      "name": "Удар шаблею",
+      "sort": 10,
+      "cost": 40,
+      "range": 1,
+      "hitChanceBonus": 15,
+      "armorPenetration": 0.15
+    }
+  },
+  {
+    "id": "bek",
+    "label": "Bek",
+    "class": "tank",
+    "stats": {
+      "hp": 100,
+      "stamina": 120,
+      "speed": 2,
+      "armor": 45,
+      "evasion": 10,
+      "meleeSkill": 75,
+      "initiative": 28,
+      "critChance": 10,
+      "critMult": 1.4,
+      "damageMin": 28,
+      "damageMax": 34
+    },
+    "primarySkill": {
+      "id": "c_t_mace",
+      "name": "Удар булавою",
+      "sort": 10,
+      "cost": 45,
+      "range": 1,
+      "powerMult": 1.0,
+      "armorPenetration": 0.3,
+      "critChanceBonus": 5
+    }
+  },
+  {
+    "id": "gryd",
+    "label": "Gryd",
+    "class": "tank",
+    "stats": {
+      "hp": 110,
+      "stamina": 140,
+      "speed": 1,
+      "armor": 50,
+      "evasion": 5,
+      "meleeSkill": 70,
+      "initiative": 15,
+      "critChance": 5,
+      "critMult": 1.3,
+      "damageMin": 28,
+      "damageMax": 36
+    },
+    "primarySkill": {
+      "id": "r_t_sword",
+      "name": "Удар мечем",
+      "sort": 10,
+      "cost": 50,
+      "range": 1,
+      "powerMult": 1,
+      "hitChanceBonus": 10,
+      "armorPenetration": 0.1,
+      "iconRow": 0,
+      "iconCol": 0
+    }
+  },
+  {
+    "id": "saadachnyi",
+    "label": "Saadachnyi",
+    "class": "ranged",
+    "stats": {
+      "hp": 65,
+      "stamina": 120,
+      "speed": 5,
+      "armor": 8,
+      "evasion": 20,
+      "meleeSkill": 80,
+      "initiative": 48,
+      "critChance": 15,
+      "critMult": 1.5,
+      "damageMin": 20,
+      "damageMax": 27
+    },
+    "primarySkill": {
+      "id": "c_ar_quick",
+      "name": "Швидка стріла",
+      "sort": 10,
+      "cost": 40,
+      "range": 5,
+      "powerMult": 1,
+      "armorPenetration": 0.1
+    }
+  },
+  {
+    "id": "druzhynnyk",
+    "label": "Druzhynnyk",
+    "class": "med",
+    "stats": {
+      "hp": 120,
+      "stamina": 115,
+      "speed": 4,
+      "armor": 30,
+      "evasion": 15,
+      "meleeSkill": 75,
+      "initiative": 30,
+      "critChance": 10,
+      "critMult": 1.4,
+      "damageMin": 36,
+      "damageMax": 50
+    },
+    "primarySkill": {
+      "id": "r_s_thrust",
+      "name": "Удар списом",
+      "sort": 10,
+      "cost": 40,
+      "range": 2,
+      "powerMult": 1,
+      "hitChanceBonus": 15,
+      "armorPenetration": 0.2,
+      "iconRow": 2,
+      "iconCol": 0
+    }
+  },
+  {
+    "id": "luchnyk",
+    "label": "Luchnyk",
+    "class": "ranged",
+    "stats": {
+      "hp": 80,
+      "stamina": 100,
+      "speed": 4,
+      "armor": 10,
+      "evasion": 15,
+      "meleeSkill": 85,
+      "initiative": 40,
+      "critChance": 10,
+      "critMult": 1.5,
+      "damageMin": 28,
+      "damageMax": 40
+    },
+    "primarySkill": {
+      "id": "r_ar_shot",
+      "name": "Постріл",
+      "sort": 10,
+      "cost": 40,
+      "range": 6,
+      "powerMult": 1,
+      "armorPenetration": 0.15,
+      "iconRow": 3,
+      "iconCol": 0
+    }
+  },
+  {
+    "id": "varangian",
+    "label": "Varangian",
+    "class": "dps",
+    "stats": {
+      "hp": 110,
+      "stamina": 125,
+      "speed": 4,
+      "armor": 15,
+      "evasion": 20,
+      "meleeSkill": 85,
+      "initiative": 42,
+      "critChance": 15,
+      "critMult": 1.6,
+      "damageMin": 44,
+      "damageMax": 60
+    },
+    "primarySkill": {
+      "id": "r_a_axe",
+      "name": "Удар сокирою",
+      "sort": 10,
+      "cost": 45,
+      "range": 1,
+      "powerMult": 1.1,
+      "armorPenetration": 0.4,
+      "critChanceBonus": 5,
+      "iconRow": 1,
+      "iconCol": 0
+    }
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "id": "varangian",
+  "unitName": "Varangian",
+  "stats": {
+    "hp": 110,
+    "stamina": 125,
+    "speed": 4,
+    "armor": 15,
+    "evasion": 15,
+    "meleeSkill": 85,
+    "critChance": 15,
+    "critMult": 1.6,
+    "initiative": 42,
+    "damageMin": 44,
+    "damageMax": 60
+  },
+  "skills": [
+    {
+      "id": "r_a_axe",
+      "name": "Удар сокирою",
+      "sort": 10,
+      "cost": 45,
+      "range": 1,
+      "powerMult": 1.1,
+      "armorPenetration": 0.4,
+      "critChanceBonus": 5,
+      "iconRow": 1,
+      "iconCol": 0
+    },
+    {
+      "id": "r_a_push",
+      "name": "Поштовх",
+      "sort": 20,
+      "cost": 65,
+      "range": 1,
+      "statusEffect": {
+        "type": "knockback"
+      },
+      "iconRow": 1,
+      "iconCol": 1
+    },
+    {
+      "id": "r_a_rend",
+      "name": "Розкол броні",
+      "sort": 30,
+      "cost": 90,
+      "range": 1,
+      "armorDamage": 15,
+      "critMultBonus": 0.2,
+      "iconRow": 1,
+      "iconCol": 2
+    }
+  ],
+
+  
+  "anchor": { "x": 0.48, "y": 0.75 },
+  "hitArea":  [262.67, 312.67, 248.67, 229.33, 302.67, 212.0, 291.33, 164.67, 252.0, 172.67, 244.0, 129.33, 219.33, 76.67, 182.67, 64.67, 116.0, 121.33, 110.67, 173.33, 128.67, 237.33, 113.33, 272.67, 188.67, 230.0, 260.67, 313.33, 262.67, 312.67],
+  "unitPortrait": { "row": 0, "col": 3 }
+}
