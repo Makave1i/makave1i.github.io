@@ -20,7 +20,7 @@
       "id": "c_d_saber",
       "name": "Удар шаблею",
       "sort": 10,
-      "cost": 40,
+      "cost": 45,
       "range": 1,
       "hitChanceBonus": 15,
       "armorPenetration": 0.15
