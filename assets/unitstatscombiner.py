@@ -50,6 +50,7 @@ def compile_simulation_data(units_dir, output_file):
                             "evasion": stats.get('evasion'),
                             "meleeSkill": stats.get('meleeSkill') if not isRanged else stats.get('rangedSkill'),
                             "initiative": stats.get('initiative'),
+                            "armorPenetration": stats.get('armorPenetration'),
                             "critChance": stats.get('critChance'),
                             "critMult": stats.get('critMult'),
                             "damageMin": stats.get('damageMin'),

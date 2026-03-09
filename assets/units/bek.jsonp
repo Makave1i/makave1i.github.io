@@ -1,29 +1,31 @@
 {
   "id": "bek",
   "name": "Bek",
-  "stats": {
-    "hp": 150,
-    "stamina": 80,
-    "speed": 3,
-    "armor": 45,
-    "evasion": 10,
-    "meleeSkill": 70,
-    "critChance": 10,
-    "critMult": 1.4,
+  "stats": { 
+    "hp": 100, 
+    "stamina": 120, 
+    "speed": 2, 
     "initiative": 28,
-    "damageMin": 32,
-    "damageMax": 42
+    "armor": 50, 
+    "evasion": 3, 
+    "meleeSkill": 95,
+    "armorPenetration": 0.5,
+    "damageMin": 9, 
+    "damageMax": 13, 
+    "critChance": 10, 
+    "critMult": 1.4 
   },
+
   "skills": [
-    {
-      "id": "c_t_mace",
-      "name": "Удар булавою",
-      "sort": 10,
-      "cost": 20,
-      "range": 1,
-      "powerMult": 1,
-      "armorPenetration": 0.3,
-      "critChanceBonus": 5
+    { 
+      "id": "c_t_mace", 
+      "name": "Удар булавою", 
+      "sort": 10, 
+      "cost": 45, 
+      "range": 1, 
+      "powerMult": 1.0, 
+      "critChanceBonus": 5,
+      "hitChanceBonus": 5
     }
   ],
 
