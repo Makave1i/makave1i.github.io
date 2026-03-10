@@ -24,7 +24,7 @@
       "cost": 50,
       "range": 1,
       "powerMult": 1,
-      "hitChanceBonus": 5,
+      "hitChanceBonus": 10,
       "armorPenBonus": 0,
       "iconRow": 0,
       "iconCol": 0

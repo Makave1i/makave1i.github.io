@@ -5,7 +5,7 @@ def get_unit_class(armor, range):
     """Визначає клас юніта на основі броні"""
     if armor >= 45:
         return "tank"
-    elif armor >= 25:
+    elif armor >= 30:
         return "med"
     else:
         if range >= 3:
@@ -54,7 +54,7 @@ def compile_simulation_data(units_dir, output_file):
                             "critChance": stats.get('critChance'),
                             "critMult": stats.get('critMult'),
                             "damageMin": stats.get('damageMin'),
-                            "damageMax": stats.get('damageMax')
+                            "damageMax": stats.get('damageMax'),
                         },
                         "primarySkill": primary_skill
                     }

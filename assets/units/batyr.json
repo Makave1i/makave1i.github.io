@@ -7,7 +7,7 @@
     "stamina": 120,
     "speed": 5,
     "initiative": 55,
-    "armor": 15,
+    "armor": 20,
     "evasion": 20,
     "armorPenetration": 0.3,
     "meleeSkill": 90,

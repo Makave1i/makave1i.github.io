@@ -11,17 +11,17 @@
     "armorPenetration": 0.0,
     "rangedSkill": 90,
     "critChance": 15,
-    "critMult": 1.5,
+    "critMult": 1.3,
     "initiative": 38,
     "damageMin": 9,
-    "damageMax": 14
+    "damageMax": 12
   },
   "skills": [
     {
       "id": "c_ar_quick",
       "name": "Швидка стріла",
       "sort": 10,
-      "cost": 40,
+      "cost": 50,
       "range": 5,
       "powerMult": 1,
       "hitChanceBonus": 5,

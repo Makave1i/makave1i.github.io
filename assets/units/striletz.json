@@ -5,23 +5,23 @@
   "stats": {
     "hp": 65,
     "stamina": 100,
-    "speed": 4,
+    "speed": 5,
     "armor": 10,
     "evasion": 10,
     "rangedSkill": 90,
     "armorPenetration": 0.0,
     "critChance": 15,
-    "critMult": 1.6,
+    "critMult": 1.4,
     "initiative": 40,
-    "damageMin": 14,
-    "damageMax": 18
+    "damageMin": 18,
+    "damageMax": 25
   },
   "skills": [
     {
       "id": "r_ar_shot",
       "name": "Постріл",
       "sort": 10,
-      "cost": 40,
+      "cost": 60,
       "range": 6,
       "powerMult": 1,
       "hitChanceBonus": 5,

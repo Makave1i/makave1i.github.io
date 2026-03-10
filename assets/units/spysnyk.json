@@ -13,8 +13,8 @@
     "critChance": 10,
     "critMult": 1.25,
     "initiative": 30,
-    "damageMin": 13,
-    "damageMax": 17
+    "damageMin": 10,
+    "damageMax": 14
   },
   "skills": [
     {
@@ -24,7 +24,7 @@
       "cost": 45,
       "range": 2,
       "powerMult": 1,
-      "hitChanceBonus": 15,
+      "hitChanceBonus": 5,
       "iconRow": 2,
       "iconCol": 0
     }

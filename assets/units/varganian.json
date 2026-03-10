@@ -5,7 +5,7 @@
     "hp": 90,
     "stamina": 120,
     "speed": 4,
-    "armor": 20,
+    "armor": 25,
     "evasion": 15,
     "meleeSkill": 95,
     "armorPenetration": 0.45,
